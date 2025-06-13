@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Virtual Art Gallery</title>
+  <link rel="stylesheet" href="artt.css" />
+</head>
+<body>
+  <header>
+    <h1>Virtual Art Gallery</h1>
+    <nav>
+      <button id="prevBtn">◀ Previous</button>
+      <button id="nextBtn">Next ▶</button>
+      <button onclick="toggleMusic()">🎵 Toggle Music</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="gallery-container">
+      <div id="carousel"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Virtual Art Gallery</p>
+  </footer>
+
+  <!-- Background Music -->
+  <audio id="bg-music" loop autoplay>
+    <source src="just-relax-11157.mp3.crdownload" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+
+  <script src="arttt.js"></script>
+</body>
+</html>
